@@ -1,0 +1,42 @@
+{
+  "icp": {
+    "revenue_min": 50000000,
+    "revenue_max": 500000000,
+    "industry": [
+      "Healthcare Technology",
+      "Medical Devices",
+      "Biotech"
+    ],
+    "geography": [
+      "USA"
+    ],
+    "employee_count_min": 200,
+    "employee_count_max": 2000,
+    "keywords": [
+      "digital health",
+      "telemedicine",
+      "EHR",
+      "patient data"
+    ]
+  },
+  "signals": {
+    "funding": true,
+    "hiring_data_roles": true,
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "job_titles_to_search": [
+      "CTO",
+      "VP Product",
+      "Head of Engineering"
+    ]
+  },
+  "search_params": {
+    "max_results": 30,
+    "min_confidence_score": 0.75,
+    "include_contacts": true,
+    "max_contacts_per_company": 3
+  }
+}

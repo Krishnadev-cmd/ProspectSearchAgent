@@ -1,0 +1,38 @@
+icp:
+  revenue_min: 20000000  # $20M
+  revenue_max: 200000000  # $200M
+  industry:
+    - "B2B Software"
+    - "FinTech"
+    - "Enterprise Software"
+  geography:
+    - "USA"
+  employee_count_min: 100
+  employee_count_max: 5000
+  keywords:
+    - "AI"
+    - "data analytics"
+    - "automation"
+    - "machine learning"
+    - "artificial intelligence"
+
+signals:
+  funding: true
+  hiring_data_roles: true
+  tech_stack:
+    - "Snowflake"
+    - "AWS"
+    - "Azure"
+    - "Python"
+  job_titles_to_search:
+    - "VP Data"
+    - "VP Engineering"
+    - "Chief Data Officer"
+    - "Head of Data Science"
+    - "Director of Analytics"
+
+search_params:
+  max_results: 50
+  min_confidence_score: 0.7
+  include_contacts: true
+  max_contacts_per_company: 5
